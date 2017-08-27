@@ -1,0 +1,40 @@
+h1{color:blue; text-alignment:center}
+a :link,a:visited{color:pink;text-decoration:none}
+a :hover,a:focus{color:red;text-decoration:underline}
+
+
+.to_the_left{float:left; padding:3px}
+ 
+
+.to_the_right{float:right;padding:3px}
+
+body{margin:0px;
+padding:0px;
+text-alignment:center}
+
+#container{width:400px;
+background:white;
+margin:0px auto;
+text-align:left;
+font-family:arial;}
+
+#sidebar{float:left;
+		width:370px;
+		background:red;
+		padding:5px;
+		text-align:left
+		}
+		
+#mainworkspace{
+	width:800;
+	height:590;
+	background:red;	
+	}
+		
+		
+
+
+
+
+
+
