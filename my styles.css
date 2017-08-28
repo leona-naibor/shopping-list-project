@@ -2,19 +2,22 @@
 body{margin-right:3px;
 	margin-left:3px;
 	padding:0px;
-    text-align:center}
+	background-color:black;
+	}
 
 #container{width:400px;
-	background:white;
+	background-color:#cd7fd0;
 	margin:0px auto;
 	text-align:left;
-	font-family:arial;}
+	font-family:arial;
+	
+	}
 
 #sidebar{float:left;
 		width:455px;
 		height:800px;
 		margin-left:3px auto;
-		background:fuchsia;
+		background:brown;
 		padding:3px;
 		text-align:left
 		}
@@ -22,7 +25,7 @@ body{margin-right:3px;
 #rightbar{float:right;
 		width:455px;
 		height:800px;
-		margin-right:3px auto;
+		padding:3px;
 		background:green;
 		}
 		
@@ -30,12 +33,32 @@ body{margin-right:3px;
 	width:800;
 	height:590;
 	background:red;	
+	
+
 	}
+
+#overall{
+			background-color:silver;
+			height:800px;
+			position:relative;
+			z-index:1;
+			}	
 		
-		
 
 
+div.wrapper{
+	height:811px;
+	margin-right:auto;
+	margin-left:auto;
+	border:2px white;
+}
 
+
+.leftimage{float:left;
+			padding:3px;
+			width:456px;
+			height:150px;
+			}
 
 
 
