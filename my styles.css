@@ -2,13 +2,15 @@
 body{margin-right:3px;
 	margin-left:3px;
 	padding:0px;
-    text-align:center}
+	}
 
 #container{width:400px;
-	background:white;
+	background-color:#cd7fd0;
 	margin:0px auto;
 	text-align:left;
-	font-family:arial;}
+	font-family:arial;
+	
+	}
 
 #sidebar{float:left;
 		width:455px;
@@ -22,7 +24,7 @@ body{margin-right:3px;
 #rightbar{float:right;
 		width:455px;
 		height:800px;
-		margin-right:3px auto;
+		padding:3px;
 		background:green;
 		}
 		
@@ -30,8 +32,16 @@ body{margin-right:3px;
 	width:800;
 	height:590;
 	background:red;	
+	
+
 	}
-		
+
+#overall{
+			background-color:silver;
+			height:800px;
+			position:relative;
+			z-index:1;
+			}	
 		
 
 
